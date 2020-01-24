@@ -1285,6 +1285,7 @@ em {
     {
         position: relative;
         height: 100%;
+        overflow-x: hidden;
     }
 
     #bloco1 {
@@ -1345,7 +1346,7 @@ em {
         flex: 1;
         margin: 0 10px;
     }
-    
+
     #bloco6 [data-conteudo-tunel] figure {
         margin-left: -8%;
     }
