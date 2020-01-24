@@ -1260,6 +1260,7 @@ em {
 @media (min-width:769px) {
     #wrapper {
         width: 100%;
+        overflow-x: hidden;
     }
 
     #bloco1,
@@ -1285,7 +1286,6 @@ em {
     {
         position: relative;
         height: 100%;
-        overflow-x: hidden;
     }
 
     #bloco1 {
@@ -1377,6 +1377,8 @@ em {
         padding-top: unset;
         margin-top: 160px;
     }
+
+    #bloco8 .container { overflow: hidden;}
 
     #bloco8 [data-pessoas] {
         width: 447px;
