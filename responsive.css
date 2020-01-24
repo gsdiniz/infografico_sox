@@ -1310,11 +1310,89 @@ em {
         right: 0;
     }
 
+    #bloco6 [data-pessoas] {
+        width: 416px;
+    }
+
+    #bloco6 [data-conteudo-box-azul][data-position]:nth-child(even) {
+        top: 7px;
+        position: absolute;
+        margin: unset;
+        right: 0;
+    }
+
+    #bloco6 [data-conteudo-tunel],
+    #bloco7 [data-conteudo-tunel]
+    {
+        margin: 0 auto;
+        width: 90%;
+        top: 65px;
+    }
+
+    #bloco6 [data-conteudo-tunel]>span:first-of-type {
+        margin-top: 0;
+    }
+
+    #bloco6 [data-conteudo-tunel] [data-flex],
+    #bloco7 [data-conteudo-tunel] [data-flex]
+    {
+        display: flex;
+    }
+
+    #bloco6 [data-conteudo-tunel] [data-flex] [data-conteudo-box-azul],
+    #bloco7 [data-conteudo-tunel] [data-flex] [data-conteudo-box-azul]
+    {
+        flex: 1;
+        margin: 0 10px;
+    }
+
+}
+    #bloco6 [data-conteudo-tunel] figure {
+        margin-left: -8%;
+    }
+
+    #bloco6 [data-conteudo-tunel] [data-pontilhados] {
+        width: 44%;
+    }
+
+    #bloco6 [data-conteudo-tunel] [data-conteudo-box-verde] {
+        left: 316px;
+    }
+
+    #bloco6 [data-conteudo-tunel] [data-conteudo-box-verde]:nth-of-type(2n) {
+        left: -16px;
+    }
+
+    #bloco6 [data-conteudo-tunel] [data-conteudo-box-verde]:last-of-type {
+        right: -16px;
+        left: unset;
+    }
+
+    #bloco7 {
+        padding-top: unset;
+        margin-top: 220px;
+    }
+
+    #bloco8 {
+        padding-top: unset;
+        margin-top: 160px;
+    }
+
+    #bloco8 [data-pessoas] {
+        width: 447px;
+    }
+
+    #bloco8 [data-conteudo-box-azul][data-position]:nth-child(even) {
+        top: 7px;
+        position: absolute;
+        margin: unset;
+        right: 0;
+    }
+
     #bloco3 { height: 1640px; padding-top: unset; }
     #bloco4 { height: 1922px; padding-top: unset; }
     #bloco5 { height: 1570px; padding-top: unset; }
     #bloco6 { margin-top: -600px; background-color: transparent; }
-
 
     #bloco2 [data-linha],
     #bloco3 [data-linha],

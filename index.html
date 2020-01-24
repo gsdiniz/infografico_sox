@@ -467,17 +467,19 @@
                 </section>
                 <section data-conteudo-tunel data-aos="fade-left">
                     <span>Esses são alguns:</span>
-                    <div data-conteudo-box-azul>
-                        <span>593</span>
-                        Controles de Negócio
-                    </div>
-                    <div data-conteudo-box-azul>
-                        <span>43</span>
-                        Controles IT
-                    </div>
-                    <div data-conteudo-box-azul>
-                        <span>113</span>
-                        Controles EL
+                    <div data-flex>
+                        <div data-conteudo-box-azul>
+                            <span>593</span>
+                            Controles de Negócio
+                        </div>
+                        <div data-conteudo-box-azul>
+                            <span>43</span>
+                            Controles IT
+                        </div>
+                        <div data-conteudo-box-azul>
+                            <span>113</span>
+                            Controles EL
+                        </div>
                     </div>
                     <span>A quantidade de pessoas envolvidas são, em média</span>
                     <figure data-aos="fade-left">
@@ -509,22 +511,23 @@
                 <section data-conteudo-tunel data-aos="fade-left">
                     <span>Quando chega o momento de preparar os ciclos de testes realizamos em média:</span>
                     <span data-destaque>400 revisões de desenhos de teste</span>
-                    <div data-conteudo-box-azul>
-                        <span>585</span>
-                        Controles em Teste do Management / ano
-                    </div>
-                    <div data-conteudo-box-azul>
-                        <span>140</span>
-                        Controles em Teste Independente / ano
-                    </div>
-                    <div data-conteudo-box-azul>
-                        <span>113</span>
-                        Planos de remediação dos últimos 2 anos
+                    <div data-flex>
+                        <div data-conteudo-box-azul>
+                            <span>585</span>
+                            Controles em Teste do Management / ano
+                        </div>
+                        <div data-conteudo-box-azul>
+                            <span>140</span>
+                            Controles em Teste Independente / ano
+                        </div>
+                        <div data-conteudo-box-azul>
+                            <span>113</span>
+                            Planos de remediação dos últimos 2 anos
+                        </div>
                     </div>
                     <span>Assim mitigamos o risco de carências decorrentes
                         das deficiências de desenho no controle.
                     </span>
-        
                 </section>
             </div>
         </article>
@@ -562,7 +565,9 @@
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({
+            once: true,
+        });
     </script>
 </body>
 
