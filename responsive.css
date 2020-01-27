@@ -1146,6 +1146,10 @@ em {
     #wrapper {
         width: 320px;
     }
+    #bloco1 section[data-texto-1] {
+        left: 50%;
+        margin-left: -125px;
+    }
 }
 
 @media (max-width:375px) and (min-width:321px) {
@@ -1160,6 +1164,10 @@ em {
     #bloco1 section[data-texto-2] {
         left: 50%;
         margin-left: -120px;
+    }
+    #bloco1 section[data-texto-1] {
+        left: 50%;
+        margin-left: -125px;
     }
     #bloco1 section[data-box] {
         left: 50%;
@@ -1211,6 +1219,10 @@ em {
     #bloco1 section[data-fundo-azul-claro] {
         left: 50%;
         margin-left: -140px;
+    }
+    #bloco1 section[data-texto-1] {
+        left: 50%;
+        margin-left: -125px;
     }
     #bloco1 section[data-texto-2] {
         left: 50%;
