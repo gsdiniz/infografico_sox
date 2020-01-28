@@ -1150,6 +1150,51 @@ em {
         left: 50%;
         margin-left: -125px;
     }
+
+    #bloco2 [data-explicacoes-2] {
+        bottom: 65px;
+    }
+
+    #bloco3 [data-explicacoes-2] {
+        bottom: 30px;
+    }
+
+    #bloco2 [data-row],
+    #bloco3 [data-row],
+    #bloco4 [data-row],
+    #bloco5 [data-row],
+    #bloco6 [data-row]
+    {
+        position: relative;
+    }
+
+    #bloco2 [data-explicacoes] [data-conteudo-direita] figure,
+    #bloco3 [data-explicacoes] [data-conteudo-direita] figure,
+    #bloco4 [data-explicacoes] [data-conteudo-direita] figure,
+    #bloco5 [data-explicacoes] [data-conteudo-direita] figure,
+    #bloco6 [data-explicacoes] [data-conteudo-direita] figure
+    {
+        left: -15px;
+        margin-top: -11%;
+        margin-left: unset;
+        position: absolute;
+        top: 50%;
+    }
+
+    #bloco2 [data-explicacoes-2] [data-conteudo-esquerda] figure,
+    #bloco3 [data-explicacoes-2] [data-conteudo-esquerda] figure,
+    #bloco4 [data-explicacoes-2] [data-conteudo-esquerda] figure,
+    #bloco5 [data-explicacoes-2] [data-conteudo-esquerda] figure,
+    #bloco6 [data-explicacoes-2] [data-conteudo-esquerda] figure
+    {
+        float: unset;
+        left: unset;
+        margin-top: -12%;
+        margin-left: unset;
+        position: absolute;
+        right: 6%;
+        top: 50%;
+    }
 }
 
 @media (max-width:375px) and (min-width:321px) {
