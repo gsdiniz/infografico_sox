@@ -1169,6 +1169,23 @@ em {
         left: 50%;
         margin-left: -125px;
     }
+    #bloco2 section[data-icone] {
+        right: 50%;
+        margin-right: -140px;
+    }
+    #bloco3 section[data-icone] {
+        right: 50%;
+        margin-right: -150px;
+    }
+    #bloco4 section[data-icone] {
+        right: 50%;
+        margin-right: -145px;
+    }
+    #bloco5 section[data-icone] {
+        right: 50%;
+        margin-right: -145px;
+    }
+
     #bloco1 section[data-box] {
         left: 50%;
         margin-left: -130px;
@@ -1224,6 +1241,23 @@ em {
         left: 50%;
         margin-left: -125px;
     }
+    #bloco2 section[data-icone] {
+        right: 50%;
+        margin-right: -140px;
+    }
+    #bloco3 section[data-icone] {
+        right: 50%;
+        margin-right: -150px;
+    }
+    #bloco4 section[data-icone] {
+        right: 50%;
+        margin-right: -145px;
+    }
+    #bloco5 section[data-icone] {
+        right: 50%;
+        margin-right: -145px;
+    }
+
     #bloco1 section[data-texto-2] {
         left: 50%;
         margin-left: -120px;
