@@ -375,7 +375,7 @@ em {
     position: absolute;
     background-color: #0026d9;
     width: 160px;
-    height: 830px;
+    height: 640px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     left: 0;
@@ -1005,8 +1005,8 @@ em {
 
 #bloco6 [data-conteudo-tunel] figure {
     position: relative;
-    bottom: 8px;
-    margin-left: -25%;
+    bottom: 4px;
+    margin-left: -51px;
     left: 50%;
     width: auto;
     display: inline-block;
@@ -1156,7 +1156,7 @@ em {
     }
 
     #bloco3 [data-explicacoes-2] {
-        bottom: 30px;
+        bottom: 190px;
     }
 
     #bloco2 [data-row],
@@ -1277,7 +1277,7 @@ em {
     }
 
     #bloco3 [data-explicacoes-2] {
-        bottom: 30px;
+        bottom: 190px;
     }
 
     #bloco2 [data-row],
@@ -1362,7 +1362,7 @@ em {
     }
 
     #bloco3 [data-explicacoes-2] {
-        bottom: 30px;
+        bottom: 190px;
     }
 
     #bloco2 [data-row],
@@ -1710,6 +1710,6 @@ em {
     #bloco6 [data-explicacoes-2]
     {
         left: 393px;
-        bottom: 8px;
+        bottom: 187px;
     }
 }
