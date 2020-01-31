@@ -94,6 +94,15 @@ em {
     border-radius: 20px;
 }
 
+#bloco2 [data-fundo]:last-child,
+#bloco3 [data-fundo]:last-child,
+#bloco4 [data-fundo]:last-child,
+#bloco5 [data-fundo]:last-child,
+#bloco6 [data-fundo]:last-child
+{
+    display: none;
+}
+
 /* BLOCO 01 */
 
 #bloco1 {
@@ -1501,6 +1510,8 @@ em {
         right: 0;
     }
 
+    #bloco3 
+
     #bloco6 [data-pessoas] {
         width: 416px;
     }
@@ -1571,7 +1582,13 @@ em {
     #bloco8 .container { overflow: hidden;}
 
     #bloco8 [data-pessoas] {
-        width: 447px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-color: #003264;
+    }
+
+    #bloco8 [data-conteudo-box-azul] {
+        background-color: unset;
     }
 
     #bloco8 [data-conteudo-box-azul][data-position]:nth-child(even) {
@@ -1602,6 +1619,35 @@ em {
     #bloco6 [data-fundo]
     {
         width: 36%;
+    }
+
+    #bloco2 [data-fundo]:nth-child(even),
+    #bloco3 [data-fundo]:nth-child(even),
+    #bloco4 [data-fundo]:nth-child(even),
+    #bloco5 [data-fundo]:nth-child(even),
+    #bloco6 [data-fundo]:nth-child(even)
+    {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: unset;
+        border-top-left-radius: 20px;
+        border-top-right-radius: unset;
+        display: block;
+        left: unset;
+        right: 0;
+    }
+
+    #bloco2 [data-fundo],
+    #bloco4 [data-fundo]
+    {
+        background-color: unset;
+        background-image: url(img/Pattern_01.jpg);
+    }
+
+    #bloco3 [data-fundo],
+    #bloco5 [data-fundo]
+    {
+        background-color: unset;
+        background-image: url(img/Pattern_02.jpg);
     }
 
     #bloco2 [data-fundo] { top: 55% }
@@ -1713,10 +1759,21 @@ em {
         bottom: 8px;
         border-left: unset;
     }
-
+    
     #bloco3 [data-explicacoes-2]
     {
-        left: 393px;
+        left: 113px;
         bottom: 187px;
+        border-right: 3px dotted #509e30;
+        border-left: unset;
+    }
+    
+    #bloco3 [data-explicacoes-2] [data-conteudo-esquerda] {
+        border-top-right-radius: unset;
+        border-bottom-right-radius: unset;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        margin-left: unset;
+        margin-right: -3px;
     }
 }
