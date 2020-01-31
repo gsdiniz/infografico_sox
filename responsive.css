@@ -1488,19 +1488,11 @@ em {
     }
 
     #bloco1 {
-        height: 370px;
+        height: 500px;
     }
 
     #bloco1 section[data-fundo-azul] {
-        width: 326px;
-    }
-
-    #bloco1 section[data-texto-2] {
-        top: 110px;
-    }
-
-    #bloco1 section[data-box] {
-        top: 248px;
+        width: 100%;
     }
     
     #bloco1 section[data-texto-2],
@@ -1508,9 +1500,32 @@ em {
     {
         left: unset;
         right: 0;
+        display: none;
     }
 
-    #bloco3 
+    #bloco1 section[data-texto-1] {
+        left: 300px;
+    }
+
+    #bloco1 section[data-texto-2] {
+        display: block;
+        right: unset;
+        left: 50%;
+        margin-left: -15%;
+    }
+
+    #bloco1 section[data-box] {
+        top: 248px;
+    }
+
+    #bloco1 section[data-fundo-azul-claro] {
+        left: 50%;
+        margin-left: -140px;
+    }
+
+    #bloco2 {
+        padding-top: unset;
+    }
 
     #bloco6 [data-pessoas] {
         width: 416px;
