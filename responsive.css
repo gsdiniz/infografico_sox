@@ -29,6 +29,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 body {
     overflow-x: hidden;
+    background-color: #5200d7;
 }
 
 strong {
@@ -45,6 +46,7 @@ em {
     margin: 0 auto;
     width: 320px;
     overflow-x: hidden;
+    background-color: white;
 }
 
 /* BOX CONTEUDO GENÉRICO */
@@ -94,6 +96,12 @@ em {
     border-radius: 20px;
 }
 
+[data-shadow] {
+    -webkit-box-shadow: 0px 6px 8px 1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 6px 8px 1px rgba(0,0,0,0.6);
+    box-shadow: 0px 6px 8px 1px rgba(0,0,0,0.6);
+}
+
 #bloco2 [data-fundo]:last-child,
 #bloco3 [data-fundo]:last-child,
 #bloco4 [data-fundo]:last-child,
@@ -109,7 +117,6 @@ em {
     position: relative;
     width: 100%;
     height: 600px;
-    background-color: white;
 }
 
 #bloco1 section[data-fundo-azul] {
@@ -190,7 +197,6 @@ em {
 /* BLOCO 02 */
 
 #bloco2 {
-    background-color: white;
     background-image: url(img/eclipse.jpg);
     background-position-x: -562px;
     background-position-y: bottom;
@@ -369,7 +375,6 @@ em {
 /* BLOCO 03 */
 
 #bloco3 {
-    background-color: white;
     background-image: url(img/eclipse-2.jpg);
     background-position-x: -710px;
     background-position-y: 205px;
@@ -552,7 +557,6 @@ em {
 /* BLOCO 04 */
 
 #bloco4 {
-    background-color: white;
     background-image: url(img/eclipse.jpg);
     background-position-x: -562px;
     background-position-y: 200px;
@@ -733,7 +737,6 @@ em {
 /* BLOCO 05 */
 
 #bloco5 {
-    background-color: white;
     background-image: url(img/eclipse-2.jpg);
     background-position-x: -710px;
     background-position-y: 205px;
@@ -880,7 +883,6 @@ em {
 /* BLOCO 06 */
 
 #bloco6 {
-    background-color: white;
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
@@ -1025,7 +1027,6 @@ em {
 /* BLOCO 07 */
 
 #bloco7 {
-    background-color: white;
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
@@ -1111,7 +1112,6 @@ em {
 /* BLOCO 08 */
 
 #bloco8 {
-    background-color: white;
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
@@ -1331,6 +1331,14 @@ em {
     }
 }
 
+@media (min-width:376px) {
+    #wrapper {
+        -webkit-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.75);
+    }
+}
+
 @media (max-width:768px) and (min-width:376px) {
     #wrapper {
         width: 425px;
@@ -1458,7 +1466,7 @@ em {
 
 @media (min-width:769px) {
     #wrapper {
-        width: 100%;
+        width: 769px;
         overflow-x: hidden;
     }
 
@@ -1492,7 +1500,8 @@ em {
     }
 
     #bloco1 section[data-fundo-azul] {
-        width: 100%;
+        width: 80%;
+        left: 10%;
     }
     
     #bloco1 section[data-texto-2],
@@ -1525,17 +1534,20 @@ em {
 
     #bloco2 {
         padding-top: unset;
+        margin-top:-60px
     }
 
     #bloco6 [data-pessoas] {
         width: 416px;
+        background-position-x: unset;
+        margin-left: 15px;
     }
 
     #bloco6 [data-conteudo-box-azul][data-position]:nth-child(even) {
         top: 7px;
         position: absolute;
         margin: unset;
-        right: 0;
+        right: 20px;
     }
 
     #bloco6 [data-conteudo-tunel],
@@ -1586,20 +1598,22 @@ em {
 
     #bloco7 {
         padding-top: unset;
-        margin-top: 220px;
+        margin-top: 145px;
     }
 
     #bloco8 {
         padding-top: unset;
-        margin-top: 160px;
+        margin-top: 125px;
+        height: 571px;
     }
 
     #bloco8 .container { overflow: hidden;}
 
     #bloco8 [data-pessoas] {
-        width: 100%;
+        width: 95%;
         background-repeat: no-repeat;
         background-color: #003264;
+        margin-left: 2.5%;
     }
 
     #bloco8 [data-conteudo-box-azul] {
@@ -1614,8 +1628,8 @@ em {
     }
 
     #bloco3 { height: 1640px; padding-top: unset; }
-    #bloco4 { height: 1922px; padding-top: unset; }
-    #bloco5 { height: 1570px; padding-top: unset; }
+    #bloco4 { height: 1922px; padding-top: unset; margin-top: -130px }
+    #bloco5 { height: 1570px; padding-top: unset; margin-top: -80px; }
     #bloco6 { margin-top: -600px; background-color: transparent; }
 
     #bloco2 [data-linha],
