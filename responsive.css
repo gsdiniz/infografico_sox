@@ -1707,11 +1707,14 @@ em {
         margin-left: 15px;
     }
 
-    #bloco2 [data-explicacoes-2],
-    #bloco3 [data-explicacoes-2],
-    #bloco4 [data-explicacoes-2],
-    #bloco5 [data-explicacoes-2],
-    #bloco6 [data-explicacoes-2]
+    #bloco2 [data-explicacoes-2]
+    {
+        left: 395px;
+        bottom: 8px;
+        border-left: unset;
+    }
+
+    #bloco3 [data-explicacoes-2]
     {
         left: 393px;
         bottom: 187px;
