@@ -280,6 +280,9 @@ em {
     position: absolute;
 }
 
+#bloco1 [data-texto-2] {
+    color: #01284f;
+}
 #bloco2 [data-subtitulo] [data-texto-1] {
     color: #01284f;
 }
@@ -287,15 +290,31 @@ em {
     color: #01284f;
 }
 
+
 #bloco3 [data-subtitulo] [data-texto-1] {
     color: #01284f;
 }
+#bloco3 [data-subtitulo] [data-texto-2] {
+    color: #01284f;
+}
+#bloco3 [data-explicacoes] [data-texto-3] {
+    color: #01284f;
+}
+
 #bloco4 [data-subtitulo] [data-texto-1] {
     color: #01284f;
 }
+#bloco4 [data-subtitulo] [data-texto-2] {
+    color: #01284f;
+}
+
 #bloco5 [data-subtitulo] [data-texto-1] {
     color: #01284f;
 }
+#bloco5 [data-subtitulo] [data-texto-2] {
+    color: #01284f;
+}
+
 
 #bloco2 [data-subtitulo] [data-texto-2] {
     margin-top: 55px;
@@ -351,6 +370,7 @@ em {
     text-align: right;
     margin-right: 10px;
     font-size: 1.2rem;
+    color: #01284f;
 }
 
 #bloco2 [data-explicacoes-2] {
@@ -1367,6 +1387,7 @@ em {
     #bloco1 section[data-fundo-azul-claro] {
         left: 50%;
         margin-left: -140px;
+
     }
     #bloco1 section[data-texto-1] {
         left: 50%;
@@ -1548,9 +1569,19 @@ em {
     }
 
     #bloco1 section[data-fundo-azul-claro] {
-        left: 50%;
+        left: 48%;
         margin-left: -140px;
+        background-image: url(img/pessoas_fundo.jpg);
+        background-color: #2cadff;
+        background-position: center;
+        height: 205px;
+        width: 310px;
+        border-radius: 30px;
+        top: 180px;
+        position: absolute;
     }
+
+
 
     #bloco2 {
         padding-top: unset;
