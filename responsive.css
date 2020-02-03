@@ -283,6 +283,19 @@ em {
 #bloco2 [data-subtitulo] [data-texto-1] {
     color: #01284f;
 }
+#bloco2 [data-subtitulo] [data-texto-2] {
+    color: #01284f;
+}
+
+#bloco3 [data-subtitulo] [data-texto-1] {
+    color: #01284f;
+}
+#bloco4 [data-subtitulo] [data-texto-1] {
+    color: #01284f;
+}
+#bloco5 [data-subtitulo] [data-texto-1] {
+    color: #01284f;
+}
 
 #bloco2 [data-subtitulo] [data-texto-2] {
     margin-top: 55px;
