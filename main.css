@@ -73,6 +73,7 @@ em {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     padding-right: 30px;
+    
 }
 
 [data-conteudo-direita] {
@@ -175,7 +176,6 @@ em {
     position: absolute;
     width: 260px;
 }
-
 #bloco1 section[data-box] .wrapper {
     height: 100%;
     position: relative;

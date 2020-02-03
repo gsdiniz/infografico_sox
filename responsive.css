@@ -151,7 +151,7 @@ em {
 
 #bloco1 section[data-texto-1] strong {
     font-weight: bold;
-    color: #0026d9;
+
 }
 
 #bloco1 section[data-texto-2] {
@@ -280,10 +280,14 @@ em {
     position: absolute;
 }
 
+#bloco2 [data-subtitulo] [data-texto-1] {
+    color: #01284f;
+}
+
 #bloco2 [data-subtitulo] [data-texto-2] {
     margin-top: 55px;
-    color: #0026d9;
     font-weight: bold;
+    color: #01284f;
 }
 
 #bloco2 [data-explicacoes] {
@@ -516,6 +520,7 @@ em {
     text-align: right;
     margin-right: 10px;
     font-size: 1.2rem;
+
 }
 
 #bloco3 [data-explicacoes-2] {
@@ -1806,5 +1811,6 @@ em {
         border-bottom-left-radius: 30px;
         margin-left: unset;
         margin-right: -3px;
+        text-align: center;
     }
 }
