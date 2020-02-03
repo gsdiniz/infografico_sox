@@ -1570,14 +1570,14 @@ em {
 
     #bloco1 section[data-fundo-azul-claro] {
         left: 48%;
-        margin-left: -140px;
-        background-image: url(img/pessoas_fundo.jpg);
+        margin-left: -170px;
+        background-image: url(img/pessoas_fundoWeb.jpg);
         background-color: #2cadff;
         background-position: center;
-        height: 205px;
-        width: 310px;
+        height: 246px;
+        width: 385px;
         border-radius: 30px;
-        top: 180px;
+        top: 130px;
         position: absolute;
     }
 
