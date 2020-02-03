@@ -29,7 +29,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 body {
     overflow-x: hidden;
-    background-color: #5200d7;
+    background-color: #0026d9;
 }
 
 strong {
@@ -151,6 +151,7 @@ em {
 
 #bloco1 section[data-texto-1] strong {
     font-weight: bold;
+    color: #0026d9;
 }
 
 #bloco1 section[data-texto-2] {
@@ -281,6 +282,7 @@ em {
 
 #bloco2 [data-subtitulo] [data-texto-2] {
     margin-top: 55px;
+    color: #0026d9;
     font-weight: bold;
 }
 
