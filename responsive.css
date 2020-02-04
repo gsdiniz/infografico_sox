@@ -1537,6 +1537,47 @@ em {
         width: 769px;
     }
 
+    #bloco2 [data-row],
+    #bloco3 [data-row],
+    #bloco4 [data-row],
+    #bloco5 [data-row],
+    #bloco6 [data-row]
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #bloco2 [data-row] figure,
+    #bloco3 [data-row] figure,
+    #bloco4 [data-row] figure,
+    #bloco5 [data-row] figure,
+    #bloco6 [data-row] figure
+    {
+        flex: 1;
+        margin-left: unset !important;
+    }
+
+    #bloco2 [data-row] span,
+    #bloco3 [data-row] span,
+    #bloco4 [data-row] span,
+    #bloco5 [data-row] span,
+    #bloco6 [data-row] span
+    {
+        flex: 2;
+        margin-left: 0 !important;
+        right: 15px !important;
+    }
+
+    #bloco2 [data-row] span br,
+    #bloco3 [data-row] span br,
+    #bloco4 [data-row] span br,
+    #bloco5 [data-row] span br,
+    #bloco6 [data-row] span br
+    {
+        display: none;
+    }
+
     #bloco8 .container
     {
         width: 924px;
@@ -1834,12 +1875,19 @@ em {
     }
 
     #bloco2 [data-explicacoes] [data-conteudo-direita]:nth-child(even) figure,
+    #bloco2 [data-explicacoes-2] [data-conteudo-esquerda] figure,
     #bloco3 [data-explicacoes] [data-conteudo-direita]:nth-child(even) figure,
     #bloco4 [data-explicacoes] [data-conteudo-direita]:nth-child(even) figure,
     #bloco5 [data-explicacoes] [data-conteudo-direita]:nth-child(even) figure,
     #bloco6 [data-explicacoes] [data-conteudo-direita]:nth-child(even) figure
     {
-        float: right;
+        order: 2;
+        text-align: right;
+    }
+
+    #bloco2 [data-explicacoes-2] [data-conteudo-esquerda] span {
+        right: unset !important;
+        left: 15px;
     }
 
     #bloco2 [data-explicacoes] [data-conteudo-direita]:nth-child(even) span,
@@ -1848,7 +1896,7 @@ em {
     #bloco5 [data-explicacoes] [data-conteudo-direita]:nth-child(even) span,
     #bloco6 [data-explicacoes] [data-conteudo-direita]:nth-child(even) span
     {
-        left: 0;
+        left: 15px;
         right: unset;
         margin-left: 15px;
     }
@@ -1856,7 +1904,7 @@ em {
     #bloco2 [data-explicacoes-2]
     {
         left: 395px;
-        bottom: 8px;
+        bottom: -42px;
         border-left: unset;
     }
     
@@ -1866,6 +1914,7 @@ em {
         bottom: 187px;
         border-right: 3px dotted #509e30;
         border-left: unset;
+        bottom: 156px;
     }
     
     #bloco3 [data-explicacoes-2] [data-conteudo-esquerda] {
@@ -1876,5 +1925,6 @@ em {
         margin-left: unset;
         margin-right: -3px;
         text-align: center;
+        padding-right: unset;
     }
 }
