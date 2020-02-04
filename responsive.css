@@ -1537,6 +1537,11 @@ em {
         width: 769px;
     }
 
+    #bloco8 .container
+    {
+        width: 924px;
+    }
+
     #bloco1 {
         height: 500px;
     }
@@ -1572,7 +1577,6 @@ em {
         width: 328px;
         text-align: justify;
         margin-top: 12px;
-    }
     }
 
     #bloco1 section[data-box] {
