@@ -1562,7 +1562,7 @@ em {
     #bloco1 section[data-texto-1] {
         text-align: center;
         margin: 0 auto;
-        width:305px
+        width:305px;
         left: 335px;
     }
     
