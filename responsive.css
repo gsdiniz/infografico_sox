@@ -1687,10 +1687,15 @@ em {
     }
 
     #bloco8 [data-conteudo-box-azul][data-position]:nth-child(even) {
-        top: 7px;
+        top: 20px;
         position: absolute;
         margin: unset;
-        right: 0;
+        right: 40px;
+        width: 355px;
+    }
+
+    #bloco8 [data-conteudo-box-azul][data-position]:nth-child(even) br {
+        display: none;
     }
 
     #bloco3 { height: 1640px; padding-top: unset; }
