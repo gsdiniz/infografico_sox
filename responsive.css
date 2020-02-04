@@ -1507,7 +1507,7 @@ em {
 
 @media (min-width:769px) {
     #wrapper {
-        width: 769px;
+        width: 980px;
         overflow-x: hidden;
     }
 
@@ -1520,7 +1520,7 @@ em {
     #bloco7 .container,
     #bloco8 .container
     {
-        width: 769px;
+        width: 980px;
         margin: 0 auto;
     }
 
@@ -1534,6 +1534,7 @@ em {
     {
         position: relative;
         height: 100%;
+        width: 769px;
     }
 
     #bloco1 {
@@ -1541,8 +1542,8 @@ em {
     }
 
     #bloco1 section[data-fundo-azul] {
-        width: 80%;
-        left: 10%;
+        width: 540px;
+        left: 220px;
     }
     
     #bloco1 section[data-texto-2],
@@ -1554,14 +1555,24 @@ em {
     }
 
     #bloco1 section[data-texto-1] {
-        left: 300px;
+        text-align: center;
+        margin: 0 auto;
+        width: 292px;
+        left: 335px;
+    }
+    
+    #bloco1 section[data-texto-1] br {
+        display: none;
     }
 
     #bloco1 section[data-texto-2] {
         display: block;
         right: unset;
-        left: 50%;
-        margin-left: -15%;
+        left: 324px;
+        width: 328px;
+        text-align: justify;
+        margin-top: 12px;
+    }
     }
 
     #bloco1 section[data-box] {
