@@ -1700,7 +1700,7 @@ em {
     #bloco5 [data-linha],
     #bloco6 [data-linha]
     {
-        left: 95px;
+        left: 140px
     }
 
     #bloco2 [data-fundo],
@@ -1751,7 +1751,7 @@ em {
     #bloco5 [data-titulo],
     #bloco6 [data-titulo]
     {
-        left: 75px;
+        left: 112px;
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
         padding-left: 30px;
@@ -1776,7 +1776,7 @@ em {
     #bloco6 [data-icone]
     {
         right: 50%;
-        margin-right: -15%;
+        margin-right: -16%;
     }
 
     #bloco2 [data-pontos][data-left][data-bottom],
@@ -1785,8 +1785,8 @@ em {
     #bloco5 [data-pontos][data-left][data-bottom],
     #bloco6 [data-pontos][data-left][data-bottom]
     {
-        left: 110px;
-        width: 275px;
+        left: 140px;
+        width: 246px;
     }
 
     #bloco2 [data-subtitulo],
@@ -1795,7 +1795,7 @@ em {
     #bloco5 [data-subtitulo],
     #bloco6 [data-subtitulo]
     {
-        left: 110px;
+        left: 140px;
     }
 
     #bloco2 [data-explicacoes],
