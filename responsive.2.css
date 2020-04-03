@@ -996,7 +996,7 @@ em {
 #bloco6 [data-conteudo-box-azul] span:first-of-type {
     display: block;
     line-height: 1.5rem;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 #bloco6 [data-conteudo-box-azul] span:last-child {
@@ -1740,8 +1740,8 @@ em {
     #bloco1 section[data-texto-1] {
         text-align: center;
         margin: 0 auto;
-        width:305px;
-        left: 335px;
+        width:322px;
+        left: 330px;
     }
     
     #bloco1 section[data-texto-1] br {
@@ -1812,6 +1812,11 @@ em {
     #bloco7 [data-conteudo-tunel] [data-flex]
     {
         display: flex;
+    }
+
+    #bloco7 [data-conteudo-tunel] [data-flex]
+    {
+        padding-top: 20px;
     }
 
     #bloco6 [data-conteudo-tunel] [data-flex] [data-conteudo-box-azul],
@@ -1889,8 +1894,8 @@ em {
     }
 
     #bloco3 { height: 1640px; padding-top: unset; }
-    #bloco4 { height: 1922px; padding-top: unset; margin-top: -130px }
-    #bloco5 { height: 1570px; padding-top: unset; margin-top: -80px; }
+    #bloco4 { height: 1922px; padding-top: unset; margin-top: -310px; background-position-y: 300px; }
+    #bloco5 { height: 1570px; padding-top: unset; margin-top: -30px; }
     #bloco6 { margin-top: -600px; background-color: transparent; }
 
     #bloco2 [data-linha],
@@ -2123,6 +2128,14 @@ em {
     #bloco10 [data-conteudo-tunel] section {
         text-align: left;
         padding: 0 64px;
+    }
+
+    #bloco10 [data-conteudo-tunel] section:first-child {
+        padding: 0 32px 0 68px;
+    }
+
+    #bloco10 [data-conteudo-tunel] section:last-child {
+        padding: 0 68px 0 32px;
     }
 
     #bloco9 [data-conteudo-tunel] section div figure,
