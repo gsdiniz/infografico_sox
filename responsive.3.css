@@ -1440,7 +1440,7 @@ em {
     background-image: url(img/section-11-icone-5.jpg);
 }
 
-#bloco11 .container [data-conjunto-6] > div:nth-child(even)
+#bloco11 .container [data-conjunto-6] div > div:nth-child(even)
 {
     position: relative;
     z-index: 12;
@@ -2382,5 +2382,353 @@ em {
         left: 50%;
         bottom: -100px;
         margin-left: -150px;
+    }
+
+    /* BLOCO 11 */
+
+    #bloco11 {
+        margin-top: 100px;
+        height: 2865px;
+    }
+
+    #bloco11 .container {
+        width: 769px;
+        margin: 0 auto;
+    }
+
+    #bloco11 .container [data-conjunto-1] [data-conteudo-box-branco] {
+        width: 270px;
+        padding: 40px;
+        margin: 0 auto;
+        font-size: 23px;
+    }
+
+    #bloco11 .container [data-conjunto-1] [data-conteudo-box-azul] {
+        width: 370px;
+        margin: -60px auto 0;
+        padding: 90px 90px 30px;
+        font-size: 22px;
+    }
+
+    #bloco11 .container [data-conjunto-1] + [data-spacer],
+    #bloco11 .container [data-conjunto-3] + [data-spacer] {
+        border-top: 3px dotted #0026d9;
+        border-top-left-radius: 20px;
+        width: 75px;
+        margin: unset;
+        height: 150px;
+        position: absolute;
+        left: 170px;
+        top: 165px;
+    }
+
+    #bloco11 .container [data-conjunto-2] > div:nth-child(odd),
+    #bloco11 .container [data-conjunto-4] > div:nth-child(odd)
+    {
+        position: absolute;
+        top: 316px;
+        left: 145px;
+        border-radius: 20px;
+        padding: 50px 70px 50px 20px;
+        height: 150px;
+    }
+
+    #bloco11 .container [data-conjunto-2] > div:nth-child(odd) figure,
+    #bloco11 .container [data-conjunto-4] > div:nth-child(odd) figure
+    {
+        margin-top: 30px;
+    }
+
+    #bloco11 .container [data-conjunto-2] > div:nth-child(even),
+    #bloco11 .container [data-conjunto-4] > div:nth-child(even)
+    {
+        position: absolute;
+        top: 340px;
+        left: 310px;
+        padding: 40px;
+        width: 270px;
+        z-index: 12;
+    }
+
+    #bloco11 .container [data-conjunto-2] + [data-spacer],
+    #bloco11 .container [data-conjunto-4] + [data-spacer]
+    {
+        border-top: 3px dotted #0026d9;
+        border-left: unset;
+        border-right: 3px dotted #0026d9;
+        border-top-right-radius: 20px;
+        width: 75px;
+        margin: unset;
+        height: 150px;
+        position: absolute;
+        right: 250px;
+        top: 425px;
+    }
+
+    #bloco11 .container [data-conjunto-3] > div:nth-child(odd) figure {
+        margin-top: 30px;
+    }
+
+    #bloco11 .container [data-conjunto-3] > div:nth-child(odd) {
+        position: absolute;
+        top: 575px;
+        right: 130px;
+        border-radius: 20px;
+        padding: 35px 20px 35px 70px;
+        height: 150px;
+    }
+
+    #bloco11 .container [data-conjunto-3] > div:nth-child(even) {
+        position: absolute;
+        top: 600px;
+        left: 310px;
+        padding: 40px;
+        width: 270px;
+        z-index: 12;
+    }
+
+    #bloco11 .container [data-conjunto-3] + [data-spacer] {
+        top: 690px;
+        left: 260px;
+    }
+
+    #bloco11 .container [data-conjunto-4] > div:nth-child(odd)
+    {
+        top: 820px;
+    }
+
+    #bloco11 .container [data-conjunto-4] > div:nth-child(even)
+    {
+        top: 845px;
+    }
+
+    #bloco11 .container [data-conjunto-4] + [data-spacer]
+    {
+        top: 940px;
+    }
+
+    #bloco11 .container [data-conjunto-5] {
+        position: absolute;
+        top: 1115px;
+        left: 192px;
+        z-index: 12;
+    }
+
+    #bloco11 .container [data-conjunto-5] > div {
+        position: relative;
+        width: 560px;
+    }
+
+    #bloco11 .container [data-conjunto-5] > div figure {
+        position: absolute;
+        top: 0;
+        left: 65px;
+    }
+
+    #bloco11 .container [data-conjunto-5] div div {
+        width: 264px;
+        position: absolute !important;
+        right: 0;
+    }
+
+    #bloco11 .container [data-conjunto-5] div div:nth-child(odd) {
+        top: 145px;
+    }
+
+    #bloco11 .container [data-conjunto-5] div div:nth-child(even) {
+        padding: 30px;
+        top: -25px;
+    }
+
+    #bloco11 .container [data-conjunto-5] div div:nth-child(even) strong {
+        font-size: 25px;
+    }
+
+    #bloco11 .container [data-conjunto-5] div div br {
+        display: none;
+    }
+
+    #bloco11 .container [data-conjunto-5] + [data-spacer]
+    {
+        position: absolute;
+        top: 1400px;
+        right: 380px;
+    }
+
+    #bloco11 .container [data-conjunto-6] {
+        position: absolute;
+        top: 1460px;
+        width: 100%;
+    }
+
+    #bloco11 .container [data-conjunto-6] > div {
+        position: relative;
+        width: 560px;
+        width: 100%;
+    }
+
+    #bloco11 .container [data-conjunto-6] [data-fundo] {
+        width: 324px;
+        position: absolute;
+        right: 320px;
+        top: 0;
+    }
+
+    #bloco11 .container [data-conjunto-6] > div div:nth-child(even) {
+        position: absolute;
+        left: 0;
+        width: 324px;
+        padding: 30px;
+        top: 65px;
+    }
+
+    #bloco11 .container [data-conjunto-6] + [data-spacer] {
+        position: absolute;
+        top: 1690px;
+        left: 50%;
+    }
+    
+    #bloco11 .container [data-conjunto-7] {
+        position: absolute;
+        top: 1725px;
+        width: 302px;
+        padding: 30px;
+        left: 54%;
+        margin-left: -25%;
+        z-index: 12;
+    }
+
+    #bloco11 .container [data-conjunto-7] + [data-spacer] {
+        display: none;
+    }
+
+    #bloco11 .data-spacer-desktop {
+        width: 50px;
+        border: 3px dotted #509e30;
+        display: block;
+        margin: 0 auto;
+        height: 120px;
+        position: absolute;
+        top: 1800px;
+    }
+
+    #bloco11 .data-spacer-desktop[data-spacer-left] {
+        border-top-left-radius: 20px;
+        border-right: unset;
+        border-bottom: unset;
+        left: 230px;
+    }
+
+    #bloco11 .data-spacer-desktop[data-spacer-right] {
+        border-top-right-radius: 20px;
+        border-left: unset;
+        border-bottom: unset;
+        right: 280px;
+    }
+
+    #bloco11 .container [data-conjunto-8],
+    #bloco11 .container [data-conjunto-9] {
+        position: absolute;
+        top: 1920px;
+        width: 300px;
+        left: 120px;
+        padding: 50px 25px;
+    }
+
+    #bloco11 .container [data-conjunto-8] strong:first-child,
+    #bloco11 .container [data-conjunto-9] strong:first-child {
+        text-align: left;
+    }
+
+
+    #bloco11 .container [data-conjunto-8] p,
+    #bloco11 .container [data-conjunto-9] p
+    {
+        display: flex;
+        height: 100px;
+        align-items: center;
+    }
+
+    #bloco11 .container [data-conjunto-8] p strong,
+    #bloco11 .container [data-conjunto-9] p strong
+    {
+        flex: 1;
+    }
+
+    #bloco11 .container [data-conjunto-8] p span,
+    #bloco11 .container [data-conjunto-9] p span
+    {
+        flex: 2;
+    }
+
+    #bloco11 .container [data-conjunto-8] + [data-spacer],
+    #bloco11 .container [data-conjunto-9] + [data-spacer] {
+        border-width: 3px;
+        border-style: dotted;
+        border-bottom-left-radius: 20px;
+        border-color: hsl(103, 53%, 40%);
+        border-right: unset;
+        border-top: unset;
+        left: 340px;
+        width: 126px;
+        position: absolute;
+        top: 2100px;
+    }
+
+    #bloco11 .container [data-conjunto-9] + [data-spacer] {
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: unset;
+        border-left: unset;
+        border-right: 3px dotted hsl(103, 53%, 40%);
+        left: unset;
+        right: 380px;
+    }
+
+    #bloco11 .container [data-conjunto-9] {
+        right: 125px;
+        left: unset;
+    }
+
+    #bloco11 .container [data-conjunto-10]
+    {
+        position: absolute;
+        top: 2220px;
+        left: 50%;
+        margin-left: -25%;
+        width: 425px;
+    }
+
+    #bloco11 .container [data-conjunto-10] + [data-spacer]
+    {
+        position: absolute;
+        top: 2160px;
+        left: 48%;
+        border-left: 3px dotted hsl(103, 53%, 40%);
+    }
+
+    #bloco11 [data-conjunto-11] {
+        position: absolute;
+        bottom: 0;
+        margin-left: -34%;
+        width: 660px;
+        left: 50%;
+    }
+
+    #bloco11 [data-conjunto-11] [data-fundo] {
+        width: 660px;
+        height: 315px;
+        margin: 0 auto;
+        background: url(img/section-11-icone-6-desktop.jpg) bottom;
+    }
+
+    #bloco11 [data-conjunto-11] > div:nth-child(even)
+    {
+        width: 440px;
+        margin: -135px auto 0;
+        padding: 40px;
+    }
+
+    #bloco11 [data-conjunto-11] > div:nth-child(even) p:first-child {
+        margin-bottom: 20px;
     }
 }
