@@ -2601,9 +2601,10 @@ em {
     }
 
     #bloco11 .container [data-conjunto-6] [data-conteudo-box-branco] {
-        width: 380px;
+        width: 415px;
         padding: 40px;
-        margin-left: 15.5%;
+        margin-right: unset;
+        margin-left: 14%;
         font-size: 23px;
     }
 
