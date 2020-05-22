@@ -1396,6 +1396,15 @@ em {
     margin: 0 auto;
 }
 
+#bloco11 .container [data-conjunto-12] {
+    background-color: #eaedff;
+    box-shadow: 0px 5px 6px 1px rgba(0,0,0,0.4);
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
 #bloco11 .container [data-conjunto-2] > div:nth-child(even),
 #bloco11 .container [data-conjunto-3] > div:nth-child(even),
 #bloco11 .container [data-conjunto-4] > div:nth-child(even)
@@ -1410,7 +1419,7 @@ em {
 
 #bloco11 .container [data-conjunto-4] + [data-spacer]
 {
-    border: unset;
+    /* border: unset; */
 }
 
 #bloco11 .container [data-conjunto-5] {
@@ -2419,7 +2428,7 @@ em {
 
     #bloco11 {
         margin-top: 100px;
-        height: 3125px;
+        height: 3240px;
     }
 
     #bloco11 .container {
@@ -2545,7 +2554,7 @@ em {
 
     #bloco11 .container [data-conjunto-5] {
         position: absolute;
-        top: 1115px;
+        top: 1265px;
         left: 192px;
         z-index: 12;
     }
@@ -2593,7 +2602,7 @@ em {
 
     #bloco11 .container [data-conjunto-6] {
         position: absolute;
-        top: 1460px;
+        top: 1595px;
         width: 100%;
     }
 
@@ -2630,14 +2639,28 @@ em {
 
     #bloco11 .container [data-conjunto-6] + [data-spacer] {
         position: absolute;
-        top: 2030px;
+        top: 2165px;
         left: 48%;
+    }
+
+    #bloco11 .container [data-conjunto-12] {
+        width: 264px;
+        position: absolute;
+        top: 1085px;
+        right: 210px;
+        z-index: 12;
+    }
+
+    #bloco11 .container [data-conjunto-12]+ [data-spacer] {
+        position: absolute;
+        top: 1203px;
+        right: 250px;
     }
     
     #bloco11 .container [data-conjunto-7] {
         position: absolute;
         /* top: 1725px; */
-        top: 2085px;
+        top: 2215px;
         width: 302px;
         padding: 30px;
         /* left: 54%; */
@@ -2741,7 +2764,7 @@ em {
     {
         position: absolute;
         /* top: 2220px; */
-        top: 2300px;
+        top: 2427px;
         left: 50%;
         margin-left: -25%;
         width: 425px;
@@ -2752,7 +2775,7 @@ em {
     {
         position: absolute;
         /* top: 2160px; */
-        top: 2240px;
+        top: 2370px;
         left: 48%;
         border-left: 3px dotted hsl(103, 53%, 40%);
     }
