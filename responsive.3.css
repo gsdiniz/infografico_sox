@@ -1287,6 +1287,13 @@ em {
     text-align: right;
 }
 
+#bloco9 [data-controles] {
+    font-size: 28px;
+    display: block;
+    position: relative;
+    top: -25px;
+}
+
 /* BLOCO 10 */
 #bloco10 {
     padding-bottom: 60px;
@@ -2355,6 +2362,11 @@ em {
 
     #bloco6 [data-conteudo-tunel]>span:last-of-type {
         /* margin-top: 210px; */
+    }
+
+    #bloco9 [data-controles] {
+        left: 20px;
+        top: -37px;
     }
 
     #bloco9 [data-conteudo-tunel],
