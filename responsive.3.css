@@ -1462,7 +1462,7 @@ em {
     background-image: url(img/section-11-icone-5.jpg);
 }
 
-#bloco11 .container [data-conjunto-6] div > div:nth-child(even)
+#bloco11 .container [data-conjunto-6] div > div:nth-child(3)
 {
     position: relative;
     z-index: 12;
@@ -2629,7 +2629,7 @@ em {
         font-size: 23px;
     }
 
-    #bloco11 .container [data-conjunto-6] > div div:nth-child(2) {
+    #bloco11 .container [data-conjunto-6] > div div:nth-child(3) {
         position: absolute;
         left: 174px;
         width: 324px;
